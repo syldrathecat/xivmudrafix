@@ -32,5 +32,5 @@ int main(int argc, char** argv)
 		poke_handle.write(result + 4, "\x75", 1);
 	}
 
-	printf("Mudra fix applied!");
+	puts("Mudra fix applied!");
 }
